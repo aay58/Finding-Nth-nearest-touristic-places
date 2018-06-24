@@ -11,7 +11,7 @@ generated which is represented x,y and a,b respectively. But if the nearest plac
 is high, she decided to visit the second nearest place whose visit fee is cheaper than the other
 and so on. So low-cost touristic place has a prioity for Alice. 
 
-Booster distance is calculated as <img src="https://latex.codecogs.com/svg.latex?\Large&space\sqrt{{(x-a)^2}+{(y-b)^2} } />
+Booster distance is calculated as <img src="https://latex.codecogs.com/svg.latex?\Large&space;\sqrt{{(x-a)^2}+{(y-b)^2} } />
 
 If the result of the distance exceeds 200, the visit fee of the place doesn't be considered. Write
 an algorithm for Alice to visit nearest and low-cost touristic place. Show Alice's prefered coordi-
@@ -20,10 +20,7 @@ to implement this algorithm and consider the exceptions ex. you generated 100 co
 but you entered 180 for N, the program must give a warning and inform user)
 
 Constraints
- <img src="https://latex.codecogs.com/svg.latex?\Large&space\
--10^{3}\leq  a,b \leq 10^{3} \\
--10^{3}\leq  x,y \leq 10^{3} \\
-0\leq   x,y \leq 60 \\ />
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;-10^{3}\leq  a,b \leq 10^{3} \\ -10^{3}\leq  x,y \leq 10^{3} \\ 0\leq   x,y \leq 60 \\ />
 Sample Input:
  N=2 (entered from the keyboard)
 
