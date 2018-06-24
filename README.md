@@ -10,7 +10,7 @@ execution 100 touristic places' coordinate pairs and only one Alice's location w
 generated which is represented x,y and a,b respectively. But if the nearest place of visit fee
 is high, she decided to visit the second nearest place whose visit fee is cheaper than the other
 and so on. So low-cost touristic place has a prioity for Alice. Booster distance is calculated as
-\sqrt{{(x-a)^2}+{(y-b)^2} }
+<img src="https://latex.codecogs.com/svg.latex?\Large&space\sqrt{{(x-a)^2}+{(y-b)^2} }
 If the result of the distance exceeds 200, the visit fee of the place doesn't be considered. Write
 an algorithm for Alice to visit nearest and low-cost touristic place. Show Alice's prefered coordi-
 nates, booster distances and visit fees according to N number as an output. (Use priority queue
